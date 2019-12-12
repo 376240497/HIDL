@@ -1,4 +1,3 @@
-# HIDL
 1、新建HIDL文件
    1> 在hardware/interfaces目录下新建 naruto/1.0/default目录，并在naruto/1.0目录下新建文件
 	   INaruto.hal  types.hal
@@ -109,7 +108,6 @@ vendor/lib/android.hardware.naruto@1.0-adapter-helper.so
 解决办法：
 比对out/target/product/k150/obj/PACKAGING/vndk_intermediates/libs.txt文件与build/make/target/product/vndk/current.txt、28.txt文件的差异，复制到current.txt、28.txt文件中；
 然后删除掉out/target/product/k150/obj/PACKAGING/vndk_intermediates/libs.txt。
-
 
 
 
