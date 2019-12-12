@@ -1,0 +1,7 @@
+package android.hardware.naruto@1.0;
+
+struct Person {
+	uint8_t age;
+	string name;
+	string sex;
+};
